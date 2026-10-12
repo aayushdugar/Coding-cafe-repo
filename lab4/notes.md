@@ -40,6 +40,16 @@ After `git commit -m "Lab work so far"`, Git displayed a summary of the new comm
 	new file:   Readme.md
 "
 
+OUTPUT: 
+git log --oneline
+commit fcd8529e50c9036fb985ced027b3ca8246ddab49 (HEAD -> master)
+Author: Aayush Dugar <aayush.dugar.ug26@plaksha.edu.in>
+Date:   Mon Oct 12 20:44:02 2026 +0530
+
+    Lab work so far
+fcd8529 (HEAD -> master) Lab work so far
+
+
 ## Question 8
 The first seven characters are the abbreviated commit hash (or commit ID). They provide a shorter way to identify a particular commit; Git can usually use the abbreviation as long as it uniquely identifies that commit in the repository.
 
